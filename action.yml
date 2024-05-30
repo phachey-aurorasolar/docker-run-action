@@ -5,6 +5,10 @@ inputs:
   image:
     description: 'Image'
     required: true
+  aws_region:
+    description: 'AWS region'
+    required: true
+    default: us-east-1
   options:
     description: 'Options'
     required: false
